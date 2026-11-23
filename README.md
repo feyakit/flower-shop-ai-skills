@@ -23,6 +23,23 @@
 ~/.codex/skills/flower-shop-daily-chat-review/SKILL.md
 ```
 
+## 上游技能库备份
+
+以下两个仓库已在 `feyakit` 账号下建立 GitHub fork，保留各自的完整仓库与上游来源；它们是独立仓库，不是本仓库的子目录：
+
+- [codex-skills-collection（我的备份）](https://github.com/feyakit/codex-skills-collection) ← 上游：[2669095290-prog/codex-skills-collection](https://github.com/2669095290-prog/codex-skills-collection)
+- [xiaohongshu-skills（我的备份）](https://github.com/feyakit/xiaohongshu-skills) ← 上游：[autoclaw-cc/xiaohongshu-skills](https://github.com/autoclaw-cc/xiaohongshu-skills)
+
+换电脑安装时，可从自己的 fork 安装相应技能。例如：
+
+> 请从 `feyakit/codex-skills-collection` 安装 `skills/flower-shop-management`。
+
+> 请从 `feyakit/xiaohongshu-skills` 安装 `skills/xhs-publish`。
+
+更新备份时，在相应 fork 中从 GitHub 的 **Sync fork** 同步上游更新；更新后还需在本机重新安装技能副本。
+
+`codex-skills-collection` 上游没有附带许可证文件，因此保留为独立 fork 并注明来源；未经作者许可，不把其文件复制到本仓库再分发。
+
 ## 使用要求
 
 - 需要 Codex Computer Use。
