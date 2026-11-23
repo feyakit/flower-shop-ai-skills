@@ -5,7 +5,7 @@
 ## 当前技能
 
 - `skills/flower-shop-daily-chat-review`：通过 Codex Computer Use 读取已登录的 macOS 微信界面，按日期整理客户对话并复盘花店运营。只在用户发起时运行；默认跳过未读会话，避免误清未读状态。
-- `skills/flower-shop-multiplatform-ops`：分析美团、抖音与麦芽田提供的店铺、订单、配送和评价数据，生成商品/活动建议、短视频内容和多平台运营日报。默认提供可审核的建议，不绕过平台权限自动操作后台。
+- `skills/flower-shop-multiplatform-ops`：分析美团、抖音与麦芽田提供的店铺、订单、配送和评价数据，生成商品/活动建议、短视频内容和多平台运营日报；用户明确要求时，可通过 Computer Use 操作已登录后台中的可见功能。
 
 ## 安装
 
