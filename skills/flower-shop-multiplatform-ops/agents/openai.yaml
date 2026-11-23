@@ -1,0 +1,4 @@
+interface:
+  display_name: "花店多平台运营"
+  short_description: "分析美团、抖音与麦芽田经营数据"
+  default_prompt: "帮我复盘花店在美团、抖音和麦芽田的运营情况，并整理下一步行动清单。"
