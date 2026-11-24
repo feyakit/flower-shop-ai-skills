@@ -1,6 +1,6 @@
 ---
 name: flower-shop-multiplatform-ops
-description: Help flower shops operate Meituan, Douyin, 麦芽田, and related local-commerce channels. Use for store diagnostics, product and campaign planning, visible merchant-backend operations with Computer Use, review replies, order/delivery analysis, and cross-platform reports; use only the merchant's signed-in, authorized session and platform-supported controls.
+description: Help flower shops operate Meituan, Douyin, 麦芽田, and related local-commerce channels. Use for store diagnostics, product and campaign planning, visible merchant-backend operations with Computer Use, review replies, order/delivery analysis, and cross-platform reports; use only the merchant's signed-in, authorized session and platform-supported controls. 中文触发：麦芽田、美团、抖音店铺、导出报表、做日报、多平台数据、经营分析、店铺诊断、商品文案、评价回复、配送复盘、这个月卖得怎么样、哪个商品不行、活动怎么搞。
 metadata:
   short-description: 花店美团、抖音与麦芽田运营助手
 ---

@@ -1,6 +1,6 @@
 ---
 name: flower-shop-daily-chat-review
-description: Read and analyze a date's customer conversations from the signed-in WeChat desktop using Codex Computer Use. Use when a flower-shop user asks to batch review daily WeChat chats, customer inquiries, orders, service quality, or shop operations.
+description: Read and analyze a date's customer conversations from the signed-in WeChat desktop using Codex Computer Use. Use when a flower-shop user asks to batch review daily WeChat chats, customer inquiries, orders, service quality, or shop operations. 中文触发：看今天的聊天、整理客户对话、读微信聊天记录、出聊天复盘、今天客户都问了什么、哪些单没成、售后情况怎么样、把今天私信整理一下、客户聊天日报。用户直接说上面任意一句时，就按本技能执行，不要先反问要用什么工具。
 ---
 
 # Flower Shop Daily Chat Review
