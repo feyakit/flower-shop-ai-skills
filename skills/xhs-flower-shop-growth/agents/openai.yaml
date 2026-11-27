@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书花店获客"
+  short_description: "花店小红书同城获客文案与草稿工作流"
+  default_prompt: "Use $xhs-flower-shop-growth to turn my bouquet photos into a Xiaohongshu local customer acquisition draft."

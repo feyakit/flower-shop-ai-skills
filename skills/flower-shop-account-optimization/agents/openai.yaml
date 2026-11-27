@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flower Shop Account Optimization"
+  short_description: "Diagnose and improve flower-shop XHS accounts"
+  default_prompt: "Use $flower-shop-account-optimization to diagnose this flower-shop Xiaohongshu account."

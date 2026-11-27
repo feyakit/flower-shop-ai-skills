@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flower Shop Copywriting"
+  short_description: "Write flower-shop Xiaohongshu copy and tags"
+  default_prompt: "Use $flower-shop-copywriting to write Xiaohongshu copy for these bouquet photos."

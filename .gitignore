@@ -1,0 +1,14 @@
+# 凭据一律不入库
+xiaohongshu_config.json
+xiaohongshu_token*.json
+*token*.json
+.env
+*.cookies
+cookies*.json
+.DS_Store
+__pycache__/
+*.pyc
+
+# 示例配置例外
+!*.env.example
+!*.example.json

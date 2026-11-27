@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>花店小红书助手 · 使用手册</title>
+<style>
+  @page { size: A4; margin: 15mm 16mm 14mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Source Han Sans SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #23262b; background: #fff; margin: 0;
+    font-size: 10.4pt; line-height: 1.6;
+    line-break: strict; overflow-wrap: break-word;
+  }
+  .top { border-bottom: 2.5px solid #8c4a5c; padding-bottom: 5mm; margin-bottom: 6mm; }
+  .brand { font-size: 8.6pt; letter-spacing: 3px; color: #8c4a5c; margin-bottom: 2mm; }
+  h1 { font-size: 21pt; margin: 0 0 2mm; line-height: 1.3; }
+  .sub { color: #5c6169; font-size: 10.4pt; }
+
+  h2 {
+    font-size: 12.6pt; margin: 5.5mm 0 2.5mm; padding: 2mm 3mm;
+    background: #f7f3f4; border-left: 4px solid #8c4a5c; border-radius: 1mm;
+  }
+  h2 .num { color: #b98b98; margin-right: 2mm; }
+  h3 { font-size: 11.2pt; margin: 4mm 0 1.5mm; color: #8c4a5c; }
+  p { margin: 0 0 2.5mm; }
+  ul, ol { margin: 0 0 2.5mm; padding-left: 6mm; }
+  li { margin-bottom: 1.5mm; }
+
+  .step { display: flex; gap: 3mm; margin-bottom: 2.4mm; align-items: flex-start; break-inside: avoid; }
+  .step .b {
+    flex: 0 0 8mm; height: 8mm; border-radius: 50%; background: #8c4a5c; color: #fff;
+    text-align: center; line-height: 8mm; font-weight: 700; font-size: 10pt;
+  }
+  .step .t { flex: 1; }
+  .step .t b { display: block; font-size: 11.2pt; }
+
+  .say {
+    background: #f7f3f4; border: 1px dashed #c9a8b3; border-radius: 2mm;
+    padding: 2.6mm 3.6mm; margin: 2mm 0; font-size: 10.6pt; line-height: 1.7;
+  }
+  .say .k { font-size: 8.6pt; color: #8c4a5c; letter-spacing: 1px; margin-bottom: 1.5mm; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 10pt; margin: 2mm 0 3mm; }
+  th, td { border: 1px solid #dcd7d9; padding: 1.8mm 2.6mm; text-align: left; vertical-align: top; }
+  th { background: #f7f3f4; font-weight: 600; }
+  td.c { white-space: nowrap; }
+
+  .tip { border-left: 3px solid #4a7c59; background: #f4f9f5; padding: 2.2mm 3.2mm; margin: 2mm 0 2.5mm; font-size: 9.9pt; border-radius: 1mm; }
+  .stop { border-left: 3px solid #b42318; background: #fdf5f4; padding: 2.2mm 3.2mm; margin: 2mm 0 2.5mm; font-size: 9.9pt; border-radius: 1mm; }
+  .tip b, .stop b { display: block; margin-bottom: 1mm; }
+
+  .check { font-size: 10.4pt; }
+  .check li { list-style: none; margin-bottom: 1.5mm; }
+  .check li::before { content: "☐  "; color: #8c4a5c; }
+
+  .foot { margin-top: 6mm; border-top: 1px solid #dcd7d9; padding-top: 3mm; font-size: 9pt; color: #7a7f87; }
+  h2, table, .say, .tip, .stop { break-inside: avoid; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="brand">花 店 小 红 书 助 手</div>
+  <h1>使用手册</h1>
+  <div class="sub">每天 10 分钟：照片放进去，文案自动出来，你点一下发布。</div>
+</div>
+
+<h2><span class="num">一</span>每天早上怎么开始</h2>
+
+<div class="step">
+  <div class="b">1</div>
+  <div class="t"><b>把今天的照片放进素材文件夹</b>
+    桌面上有个「小红书素材」文件夹，按日期分好。把今天拍的花放进去，<b>3 张起，最好竖着拍。</b></div>
+</div>
+
+<div class="step">
+  <div class="b">2</div>
+  <div class="t"><b>双击桌面上的「小红书发布」图标</b>
+    会打开一个浏览器。这个图标是专门配好的，<b>千万别用你平时那个 Chrome</b>，用错了助手就认不到你的账号。</div>
+</div>
+
+<div class="step">
+  <div class="b">3</div>
+  <div class="t"><b>双击桌面上的「ChatGPT」图标</b>
+    打开后登录（一般会自己记住），进到平时聊天那个界面就行。</div>
+</div>
+
+<div class="tip">
+  <b>顺序别反</b>
+  一定要先开「小红书发布」那个浏览器，再开 ChatGPT。反了也没关系，但助手会提示你「请先打开浏览器」，照提示点一次就行。
+</div>
+
+<h2><span class="num">二</span>怎么让它开始干活</h2>
+
+<p>打开 ChatGPT 后，<b>复制下面这句话发过去</b>，别的都不用说：</p>
+
+<div class="say">
+  <div class="k">每 天 都 用 这 句</div>
+  这是我今天的素材，帮我写文案，然后填到创作者后台，不要发布，我自己点。
+</div>
+
+<p>它会自己去素材文件夹里找今天的照片，然后：</p>
+<ol>
+  <li>先给你一版文案（标题、正文、话题标签）</li>
+  <li>等你回话——<b>它不会自己发布</b>，这一步一定要你确认</li>
+  <li>你满意了，它会把内容填进小红书后台</li>
+  <li>浏览器停在小红书的发布页面，<b>最后那个“发布”按钮由你点</b></li>
+</ol>
+
+<h2><span class="num">三</span>文案不满意怎么改</h2>
+
+<p>像跟店员说话一样直接说，不用懂什么“提示词”。常用的几种：</p>
+
+<table>
+  <tr><th style="width:34%">你想要</th><th>就这么说</th></tr>
+  <tr><td>太正式了</td><td>「写得像店里随口说的，别那么广告」</td></tr>
+  <tr><td>标题太长</td><td>「标题短一点，12 个字以内」</td></tr>
+  <tr><td>要突出价格</td><td>「加一句：9 支装 168，同城两小时送到」</td></tr>
+  <tr><td>要突出场景</td><td>「这条主要写送女朋友，纪念日用」</td></tr>
+  <tr><td>全都不行</td><td>「换三个不同思路的标题给我挑」</td></tr>
+</table>
+
+<div class="tip">
+  <b>一句话原则</b>
+  你不知道怎么描述的时候，就说「我想要什么感觉」，比如「想要那种有点高级但不冷淡的」。它听得懂这个。
+</div>
+
+<h2><span class="num">四</span>发布这一步</h2>
+
+<p>内容填好后，浏览器会跳到小红书的发布页面，这时候：</p>
+<ol>
+  <li><b>先自己看一眼</b>：标题、正文、图片顺序、话题对不对</li>
+  <li>没问题就点「发布」</li>
+  <li>要改就直接在页面上改，改完再点「发布」</li>
+</ol>
+
+<div class="stop">
+  <b>一天最多发 1 条</b>
+  这不是建议，是保护账号的底线。发多了平台会限流，账号受限的损失远大于多发几条的收益。
+</div>
+
+<h2><span class="num">五</span>晚上花 2 分钟，让它记住今天</h2>
+
+<p>睡前把当天的数据报给它，它会写进你的「花店经验库」，越用越懂你的店：</p>
+
+<div class="say">
+  <div class="k">晚 上 用 这 句</div>
+  今天数据：浏览___ 赞___ 收藏___ 评论___ 涨粉___ 咨询___，帮我复盘，写进经验库。
+</div>
+
+<p>数字在手机小红书 App 的「创作中心」里能看到。填不全也行，有几个填几个。</p>
+
+<h2><span class="num">六</span>出问题了怎么办</h2>
+
+<table>
+  <tr><th style="width:40%">它说什么</th><th>你做什么</th></tr>
+  <tr><td>「浏览器扩展未连接」</td><td>关掉浏览器，重新双击桌面「小红书发布」图标</td></tr>
+  <tr><td>「页面加载超时」</td><td>自己用浏览器打开 xiaohongshu.com，能看见内容再让它重试</td></tr>
+  <tr><td>让你扫二维码</td><td>用手机小红书扫一下，扫完继续</td></tr>
+  <tr><td>找不到照片</td><td>确认照片放在「小红书素材」里当天的文件夹，文件名别带特殊符号</td></tr>
+  <tr><td>文案没进后台</td><td><b>别自己乱点</b>，把这句话截图发给你的服务老师</td></tr>
+  <tr><td>要花钱 / 要你输密码</td><td>停下来，先问服务老师。正常流程不会问你要密码</td></tr>
+</table>
+
+<h2><span class="num">七</span>三件事请记住</h2>
+
+<div class="stop">
+  <b>一、密码不给任何人</b>
+  包括我。所有操作都在你自己的电脑、你自己的账号上做。有人说要帮你登账号，一律拒绝。
+</div>
+
+<div class="stop">
+  <b>二、不承诺涨粉和成交</b>
+  这套工具保证的是「每天有一条可以直接发的笔记」，省下你想文案、排版、上传的一小时。涨不涨粉取决于内容和花的本身。
+</div>
+
+<div class="stop">
+  <b>三、一天一条，自己点发布</b>
+  自动连发会被平台判定异常。你点的那一下，就是账号的安全阀。
+</div>
+
+<h2><span class="num">八</span>每天照这个清单走</h2>
+
+<ul class="check">
+  <li>照片放进「小红书素材」当天文件夹（3 张以上）</li>
+  <li>双击「小红书发布」图标 → 双击 ChatGPT 图标</li>
+  <li>发那句话：「这是我今天的素材……」</li>
+  <li>看文案 → 说「可以」或让它改</li>
+  <li>检查后台内容 → 自己点「发布」</li>
+  <li>晚上报数据，让它写进经验库</li>
+</ul>
+
+<div class="tip">
+  <b>第一个星期最难</b>
+  前 3 天你会觉得它写得不像你说话。直接告诉它「这句不像我说的，改成……」，它会记住。一周之后出的稿子基本能直接用。
+</div>
+
+<div class="foot">
+  有问题随时找你的服务老师（7 天内免费答疑）。<br>
+  本手册只讲怎么用，不涉及任何软件设置——设置部分不需要你操心，也不需要你打开。
+</div>
+
+</body>
+</html>

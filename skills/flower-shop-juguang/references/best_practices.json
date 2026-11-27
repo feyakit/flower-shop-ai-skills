@@ -1,0 +1,36 @@
+{
+  "cost_control": [
+    {
+      "id": "bp_20260620_114608",
+      "timestamp": "2026-06-20T11:46:08.741139",
+      "title": "成本预警阈值",
+      "content": "开口成本超过2元时自动告警",
+      "data_source": "用户反馈",
+      "confidence": 0.5,
+      "times_verified": 0,
+      "last_verified": null
+    }
+  ],
+  "data_access": [
+    {
+      "id": "bp_20260620_114608",
+      "timestamp": "2026-06-20T11:46:08.741235",
+      "title": "实时数据获取",
+      "content": "使用get_realtime_open_mouth()一键获取开口+消耗+成本",
+      "data_source": "用户反馈",
+      "confidence": 0.5,
+      "times_verified": 0,
+      "last_verified": null
+    },
+    {
+      "id": "bp_20260620_114608",
+      "timestamp": "2026-06-20T11:46:08.741304",
+      "title": "字段映射",
+      "content": "msg_chat_user_cnt=进线用户数, initiative_message=主动消息数",
+      "data_source": "官方API文档验证",
+      "confidence": 0.5,
+      "times_verified": 0,
+      "last_verified": null
+    }
+  ]
+}

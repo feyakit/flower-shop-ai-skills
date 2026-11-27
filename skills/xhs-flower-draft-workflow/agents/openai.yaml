@@ -1,0 +1,4 @@
+interface:
+  display_name: "XHS Flower Draft Workflow"
+  short_description: "花店小红书图片优化文案话题草稿箱上传多账号全流程助手"
+  default_prompt: "Use $xhs-flower-draft-workflow to optimize flower-shop素材, write Xiaohongshu copy, choose buyer-intent topics, and save a draft."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flower Arrangement Learning"
+  short_description: "Critique bouquets and teach practical floristry"
+  default_prompt: "Use $flower-arrangement-learning to critique and improve this bouquet."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flower Shop Juguang"
+  short_description: "Optimize flower-shop Xiaohongshu Juguang ads"
+  default_prompt: "Use $flower-shop-juguang to diagnose this flower-shop Juguang account."

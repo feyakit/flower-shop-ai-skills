@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flower Shop Chat Replies"
+  short_description: "Write warm flower-shop customer replies"
+  default_prompt: "Use $flower-shop-chat-replies to reply to this flower-shop customer chat."

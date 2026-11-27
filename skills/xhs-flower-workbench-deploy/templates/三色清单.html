@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4; margin: 12mm 11mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Zen Hei", sans-serif;
+    color: #131313; margin: 0; line-height: 1.44; line-break: strict; text-wrap: pretty;
+  }
+  h1 { font-size: 24pt; margin: 0 0 1.5mm; }
+  .sub { font-size: 13pt; color: #333; margin-bottom: 3.5mm; }
+  .sub i { font-style: normal; display: inline-block; width: 4mm; height: 4mm;
+           border-radius: 50%; margin: 0 1.5mm 0 4mm; vertical-align: -0.4mm; }
+  .row { display: flex; gap: 4mm; align-items: stretch; }
+  .col { flex: 1; border-radius: 4mm; padding: 3.4mm 3.4mm; border: 1.1mm solid #ddd; }
+  .col h2 { font-size: 16.5pt; margin: 0 0 1mm; display: flex; align-items: center; gap: 2.2mm; }
+  .col h2 .dot { width: 5mm; height: 5mm; border-radius: 50%; flex: none; }
+  .col .tag { font-size: 11pt; color: #444; margin-bottom: 2.2mm; display: block; }
+  .g { background: #eafaf0; border-color: #1f9d55; }
+  .y { background: #fff8e6; border-color: #c98f00; }
+  .r { background: #fdeeee; border-color: #cc3b3b; }
+  .g h2 { color: #157f43; } .g .dot { background: #1f9d55; }
+  .y h2 { color: #8a6000; } .y .dot { background: #d99b00; }
+  .r h2 { color: #b02a2a; } .r .dot { background: #cc3b3b; }
+  ul { margin: 0; padding-left: 4.5mm; }
+  li { font-size: 12.5pt; margin-bottom: 1.9mm; }
+  li b { font-size: 13pt; }
+  .no { color: #b02a2a; }
+  .strip { margin-top: 4mm; background: #1f2937; color: #fff; border-radius: 4mm; padding: 3.6mm 5mm; }
+  .strip p { margin: 0 0 1.6mm; font-size: 12.5pt; }
+  .strip p:last-child { margin-bottom: 0; }
+  .strip em { font-style: normal; color: #ffd479; font-weight: 700; margin-right: 2mm; }
+  .foot { margin-top: 3.5mm; border: 0.8mm dashed #8a8a8a; border-radius: 3.5mm; padding: 3.2mm; font-size: 12pt; }
+  .foot .ln { margin: 2.5mm 0 0; display: flex; gap: 2mm; align-items: baseline; }
+  .foot .ln span { color: #555; font-size: 11pt; white-space: nowrap; }
+  .foot .ln i { flex: 1; border-bottom: 0.4mm solid #aaa; display: block; height: 5mm; }
+  .avoid { break-inside: avoid; }
+</style>
+</head>
+<body>
+  <h1>我能帮你做什么？看这三个颜色</h1>
+  <div class="sub"><i style="background:#1f9d55"></i>今天就能做<i style="background:#d99b00"></i>要另排期、另算钱<i style="background:#cc3b3b"></i>不接，给你替代办法</div>
+
+  <div class="row">
+    <div class="col g">
+      <h2><span class="dot"></span>今天就能做</h2>
+      <span class="tag">把图和话发我，我出结果</span>
+      <ul>
+        <li><b>写文案</b><br>标题、正文、话题</li>
+        <li><b>修图</b><br>变亮、变干净、裁好尺寸</li>
+        <li><b>想标题</b><br>一次给 5 个，你挑</li>
+        <li><b>改客户回话</b><br>说得更好听，不用降价</li>
+        <li><b>存草稿箱</b><br>我填好，你点发布</li>
+      </ul>
+    </div>
+
+    <div class="col y">
+      <h2><span class="dot"></span>要另排期</h2>
+      <span class="tag">能做，钱和时间单独算</span>
+      <ul>
+        <li><b>美团团购文案</b><br>和评价回复，另算</li>
+        <li><b>抖音短视频</b><br>用你实拍的花，配音加字幕</li>
+        <li><b>每月数据复盘</b><br>看顾客在哪一步没下单</li>
+        <li><b>小程序</b><br>先看你有没有现成后台，再谈</li>
+      </ul>
+    </div>
+
+    <div class="col r">
+      <h2><span class="dot"></span>不接，有替代</h2>
+      <span class="tag">不是懒，是做了你会吃亏</span>
+      <ul>
+        <li><span class="no">✕ </span><b>替你自动发笔记</b><br>你自己点，出事能删</li>
+        <li><span class="no">✕ </span><b>替你自动回私信</b><br>我给话术；它答错价，你赔钱</li>
+        <li><span class="no">✕ </span><b>替你改美团价、上下架</b><br>你自己后台改，改错按单赔</li>
+        <li><span class="no">✕ </span><b>替你管账号密码</b><br>钥匙只在你手上</li>
+        <li><span class="no">✕ </span><b>保证涨粉、保证爆单</b><br>说保证的，都要小心</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="strip avoid">
+    <p><em>一</em>每个平台都有一道门，只有店主本人有钥匙。我帮你递东西，开门必须是你。</p>
+    <p><em>二</em>AI 像个记性特别好的学徒：教过的做得又快又好；<br>没教过的不会自己想，还会一本正经地胡说。</p>
+    <p><em>三</em>发布这一步永远是你。我负责快，你负责按最后那个键。</p>
+  </div>
+
+  <div class="foot avoid">
+    <b>又有新想法？</b>先看这张纸，指一个颜色。<br>
+    绿色我今天就做；黄色告诉你多少钱、哪天能给；红色给你另一个办法。
+    <div class="ln"><span>想加的写在这：</span><i></i></div>
+    <div class="ln"><span>&nbsp;</span><i></i></div>
+  </div>
+</body>
+</html>

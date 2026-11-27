@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flower Shop Image Optimization"
+  short_description: "Optimize bouquet photos for social posting"
+  default_prompt: "Use $flower-shop-image-optimization to optimize these bouquet photos for Xiaohongshu."

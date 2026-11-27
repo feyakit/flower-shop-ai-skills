@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flower Shop Management"
+  short_description: "Manage flower-shop orders and delivery workflows"
+  default_prompt: "Use $flower-shop-management to organize this flower-shop order workflow."

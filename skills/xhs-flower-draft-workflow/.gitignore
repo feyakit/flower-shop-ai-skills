@@ -1,0 +1,10 @@
+accounts.local.json
+.env
+.env.*
+*.cookies
+*.cookie
+cookies.local.*
+cookie.local.*
+*.log
+__pycache__/
+.DS_Store
